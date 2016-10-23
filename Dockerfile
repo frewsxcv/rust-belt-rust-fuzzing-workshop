@@ -8,7 +8,9 @@ WORKDIR /rustbeltrust
 COPY . .
 
 WORKDIR /rustbeltrust/exercise2/jpeg-decoder
+RUN cargo build --release
 
-RUN cargo build
+WORKDIR /rustbeltrust/exercise3/rust-url
+RUN cargo build --release
 
 WORKDIR /rustbeltrust/

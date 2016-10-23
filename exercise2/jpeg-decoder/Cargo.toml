@@ -13,6 +13,8 @@ exclude = ["tests/*"]
 [dependencies]
 byteorder = "0.5"
 rayon = "0.4"
+afl = "0.1"
+afl-plugin = "0.1"
 
 [dev-dependencies]
 walkdir = "0.1"

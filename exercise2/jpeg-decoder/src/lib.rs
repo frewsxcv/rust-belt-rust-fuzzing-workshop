@@ -1,3 +1,6 @@
+#![feature(plugin)]
+#![plugin(afl_plugin)]
+
 extern crate byteorder;
 extern crate rayon;
 
