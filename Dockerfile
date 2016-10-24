@@ -29,4 +29,7 @@ RUN cargo build --release
 WORKDIR /rustbeltrust/exercise3/rust-url
 RUN cargo build --release
 
+WORKDIR /rustbeltrust/exercise4/driver
+RUN cargo build --release
+
 WORKDIR /rustbeltrust/
