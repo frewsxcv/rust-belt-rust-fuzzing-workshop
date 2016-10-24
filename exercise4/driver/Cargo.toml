@@ -1,0 +1,10 @@
+[package]
+name = "driver"
+version = "0.1.0"
+authors = ["Corey Farwell <coreyf@rwell.org>"]
+
+[dependencies]
+afl = "0.1"
+ring = { path = "../ring" }
+rust-crypto = { path = "../rust-crypto" }
+openssl = { path = "../rust-openssl/openssl" }
