@@ -7,11 +7,11 @@ RUN apt-get update && apt-get install -y \
   file \
   g++ \
   g++-multilib \
+  imagemagick \
+  libssl-dev \
   libstdc++-4.8-dev \
-  llvm-3.8
-
-RUN apt-get update && apt-get install -y \
-  imagemagick
+  llvm-3.8 \
+  make
 
 RUN curl -sSf https://static.rust-lang.org/rustup.sh | sh -s -- --channel=nightly --date=2016-07-30 --disable-sudo
 
